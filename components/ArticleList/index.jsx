@@ -1,4 +1,4 @@
-import ArticleCard from "../ArticleCard";
+import ArticleCard from '../ArticleCard';
 
 export default function ArticleList() {
   return (

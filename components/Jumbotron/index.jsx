@@ -1,5 +1,5 @@
-import Link from "next/link";
-import SearchDoctor from "../SearchDoctor";
+import Link from 'next/link';
+import SearchDoctor from '../SearchDoctor';
 
 export default function Jumbotron() {
   return (
@@ -14,7 +14,7 @@ export default function Jumbotron() {
         <SearchDoctor />
         <p className="text-white mt-4">
           <Link href="/dokter">
-            <a>Lihat semua dokter konsultasi</a>
+            <a href="/dokter">Lihat semua dokter konsultasi</a>
           </Link>
         </p>
       </div>

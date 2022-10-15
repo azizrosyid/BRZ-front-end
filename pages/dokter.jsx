@@ -1,8 +1,8 @@
-import Head from "next/head";
-import DoctorCard from "../components/DoctorCard";
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
-import SearchDoctor from "../components/SearchDoctor";
+import Head from 'next/head';
+import DoctorCard from '../components/DoctorCard';
+import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
+import SearchDoctor from '../components/SearchDoctor';
 
 export default function dokter() {
   return (

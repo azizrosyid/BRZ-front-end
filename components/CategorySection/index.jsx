@@ -6,17 +6,17 @@ export default function CategorySection() {
       <div className="container flex flex-row items-center px-5 py-8 mx-auto text-center lg:px-20">
         <div className="flex flex-col w-full text-left lg:text-center text-xl">
           <Link href="/dokter">
-            <a>Konsultasi Dengan Dokter</a>
+            <a href="/dokter">Konsultasi Dengan Dokter</a>
           </Link>
         </div>
         <div className="flex flex-col w-full text-left lg:text-center text-xl">
           <Link href="/artikel">
-            <a>Cari Artikel</a>
+            <a href="/artikel">Cari Artikel</a>
           </Link>
         </div>
         <div className="flex flex-col w-full text-left lg:text-center text-xl">
           <Link href="/diskusi">
-            <a>Tanya Dokter</a>
+            <a href="/diskusi">Tanya Dokter</a>
           </Link>
         </div>
       </div>

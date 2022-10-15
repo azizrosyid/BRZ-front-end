@@ -13,7 +13,9 @@ export default function ArticleCard() {
       <div className="w-full">
         <h3 className="text-xl font-bold mt-4 md:mt-0">
           <Link href="/artikel/1">
-            <a>Cara Menanam Padi Yang Benar Agar Hasil Panen Lebih Baik</a>
+            <a href="/artikel/1">
+              Cara Menanam Padi Yang Benar Agar Hasil Panen Lebih Baik
+            </a>
           </Link>
         </h3>
         <p className="text-gray-500 mt-2">
